@@ -2,6 +2,11 @@
   font-weight: bold;
 } /* весь шрифт жирный */
 
+body {
+  font-family: Roboto;
+  font-weight: 400;
+}
+
 header {
   padding-top: 100px;
   background: url(//img5.goodfon.ru/wallpaper/nbig/c/ef/tsvety-pink-flowers-rozovyi-fon.jpg);
@@ -11,8 +16,9 @@ header {
 
 .header__title {
   color: black;
-  font-family: cursive, serif, arial;
-  font-weight: 600;
+  font-family: Lobster, arial, serif;
+  font-size: 3em;
+  font-weight: 400;
   text-align: center;
 } /* шрифт заголовка шапки */
 
@@ -34,7 +40,7 @@ button {
   border: 1px;
   border-radius: 5px;
   border-style: none;
-  font-family: arial, serif, Helvetica;
+  font-family: arial, Helvetica, serif;
   background-color: white;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 } /* стили для всех кнопок */
