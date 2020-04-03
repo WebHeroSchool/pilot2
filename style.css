@@ -1,0 +1,54 @@
+* {
+  font-weight: bold;
+} /* весь шрифт жирный */
+
+body {
+  font-family: Roboto;
+  font-weight: 400;
+}
+
+header {
+  padding-top: 100px;
+  background: url(//img5.goodfon.ru/wallpaper/nbig/c/ef/tsvety-pink-flowers-rozovyi-fon.jpg);
+  background-size: cover;
+  margin: auto;
+} /* фон шапки */
+
+.header__title {
+  color: black;
+  font-family: Lobster, arial, serif;
+  font-size: 3em;
+  font-weight: 400;
+  text-align: center;
+} /* шрифт заголовка шапки */
+
+.header__desc {
+    font-size: 20px;
+    text-align: center;
+} /* шрифт описания заголовка шапки */
+
+.section__text {
+  color: grey;
+}  /* цвет шрифта описания */
+
+button {
+  width: 200px;
+  height: 25px;
+  display: block;
+  line-height: 15px;
+  text-transform: uppercase;
+  border: 1px;
+  border-radius: 5px;
+  border-style: none;
+  font-family: arial, Helvetica, serif;
+  background-color: white;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+} /* стили для всех кнопок */
+
+p > i {
+  font-size: 20px;
+}
+
+ .footer__link {
+   text-decoration: none;
+ }
